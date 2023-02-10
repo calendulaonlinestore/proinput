@@ -1,7 +1,7 @@
 ProInput
 ===================
 
-College Project and Assignment Assistance
+College Project and Assignment Assistant Platform
 
 
 # DESCRIPTION
@@ -11,7 +11,7 @@ This project enterprises the needs of student requesting help and assistance on 
 # FLOW CONTROL
 
 ```
-    Contact ProInput ----> Payment ---> ---> Contact Assistants ---> Project prep ---> Completion
+    Contact ProInput ----> Payment ---> Contact Assistants ---> Project prep ---> 	Project Completion
 ```
 
 # TODO
@@ -19,4 +19,4 @@ This project enterprises the needs of student requesting help and assistance on 
 1. Landing Page 
 2. Contact Form
 3. Assistants Registration form
-5. More Contact options and metas
+5. More Contact options and meta edits
