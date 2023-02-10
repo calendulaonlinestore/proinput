@@ -11,7 +11,7 @@ This project enterprises the needs of student requesting help and assistance on 
 # FLOW CONTROL
 
 ```
-    Contact ProInput ----> Payment ---> Contact Assistants ---> Project prep ---> 	Project Completion
+    Contact ProInput ----> Payment ---> Contact Assistants ---> Project prep ---> Project Completion
 ```
 
 # TODO
