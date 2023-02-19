@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+  
+    <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+  
+    <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
     <link rel="stylesheet" href="main2.css">
     <title>Proinput</title>
 </head>
@@ -24,42 +36,263 @@
             <h2>Many students in nigeria struggle with the hassle of doing assignments.</h2><br>
             <h3>With the condition of the economy and challenges facing nigerian undergraduates such as limited access to research resources, lack of understanding of assignment requirements and lack of time. <br><br> Using PROINPUT, students can implement effective time management skills, which can positively impact their ability to complete assignments and projects successfully.</h3>
             <h2>PROINPUT is here to help</h2>
-            <div class="btns">
-                <a href="">GET STARTED</a>
+            <div class="btns" >
+                <a href="#section2">GET STARTED</a>
             </div>
         </div>
     </section>
-    <section class="contact">
-        <div class="row">
-            <small>Enter message (optional) and click button "Send"</small>
-            <div class="wrapper centered">
-            <article class="letter">
-                <div class="side">
-                <h1>Contact us</h1>
-                <p>
-                    <textarea placeholder="Your message"></textarea>
-                </p>
-                </div>
-                <div class="side">
-                <p>
-                    <input type="text" placeholder="Your name" >
-                </p>
-                <p>
-                    <input type="email" placeholder="Your email" >
-                </p>
-                <p>
-                    <button id="sendLetter">Send</button>
-                </p>
-                </div>
-            </article>
-            <div class="envelope front"></div>
-            <div class="envelope back"></div>
-            </div>
-            <p class="result-message centered">Thank you for your message</p>
+    
+    <section class="contact_form" translate="no" id="section2">
+        <div class="back">
+            <div class="registration-form">
+                <header>
+                  <h1>Sign Up</h1>
+                  <p>Fill in all informations</p>
+                </header>
+                <form>
+                  <div class="input-section email-section">
+                    <input class="email" type="email" placeholder="ENTER YOUR E-MAIL HERE" autocomplete="off"/>
+                    <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-envelope-o"></i></span><span class="next-button email"><i class="fa fa-arrow-up"></i></span></div>
+                  </div>
+                  <div class="input-section name-section folded">
+                    <input class="name" type="text"  maxlength="15" placeholder="ENTER YOUR Name HERE" autocomplete="off"/>
+                    <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-envelope-o"></i></span><span class="next-button name"><i class="fa fa-arrow-up"></i></span></div>
+                  </div>
+                  <div class="input-section phone-section folded">
+                    <input class="phone" type="tel" placeholder="ENTER YOUR WHATSAPPNUMBER HERE" autocomplete="off"/>
+                    <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-envelope-o"></i></span><span class="next-button phone"><i class="fa fa-arrow-up"></i></span></div>
+                  </div>
+                  <div class="input-section title-section folded">
+                    <input class="title" minlength="5" maxlength="200" size="250" placeholder="ENTER COURSE TITLE" autocomplete="off"/>
+                    <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-envelope-o"></i></span><span class="next-button title"><i class="fa fa-arrow-up"></i></span></div>
+                  </div>
+                  <div class="input-section topic-section folded">
+                    <input class="topic" minlength="5" maxlength="200" size="250" placeholder="ENTER ASSIGNMENT TOPIC" autocomplete="off"/>
+                    <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-envelope-o"></i></span><span class="next-button topic"><i class="fa fa-arrow-up"></i></span></div>
+                  </div>
+                  <div class="input-section question-section folded">
+                    <input class="question" minlength="5" maxlength="200" size="250" placeholder="ENTER ASSIGNMENT QUESTION" autocomplete="off"/>
+                    <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-envelope-o"></i></span><span class="next-button question"><i class="fa fa-arrow-up"></i></span></div>
+                  </div>
+                  <div class="input-section password-section folded">
+                    <input class="password" type="password" placeholder="ENTER YOUR PASSWORD HERE"/>
+                    <div class="animated-button"><span class="icon-lock"><i class="fa fa-lock"></i></span><span class="next-button password"><i class="fa fa-arrow-up"></i></span></div>
+                  </div>
+                  <div class="input-section repeat-password-section folded">
+                    <input class="repeat-password" type="password" placeholder="REPEAT YOUR PASSWORD HERE"/>
+                    <div class="animated-button"><span class="icon-repeat-lock"><i class="fa fa-lock"></i></span><span class="next-button repeat-password"><i class="fa fa-paper-plane"></i></span></div>
+                  </div>
+                  <div class="success"> 
+                    <p>ASSIGNMENT SUBMITED</p>
+                    <p>We will you contact via whatsapp</p>
+                  </div>
+                </form>
+              </div>
         </div>
-
-
+        
     </section>
+
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script id="rendered-js" >
+    $('.email').on("change keyup paste",
+    function () {
+    if ($(this).val()) {
+    $('.icon-paper-plane').addClass("next");
+    } else {
+    $('.icon-paper-plane').removeClass("next");
+    }
+    });
+
+
+    $('.next-button').hover(
+    function () {
+    $(this).css('cursor', 'pointer');
+    });
+
+
+    $('.next-button.email').click(
+    function () {
+    console.log("Something");
+    $('.email-section').addClass("fold-up");
+    $('.name-section').removeClass("folded");
+    });
+
+
+    $('.name').on("change keyup paste",
+    function () {
+    if ($(this).val()) {
+    $('.icon-paper-plane').addClass("next");
+    } else {
+    $('.icon-paper-plane').removeClass("next");
+    }
+    });
+
+
+    $('.next-button').hover(
+    function () {
+    $(this).css('cursor', 'pointer');
+    });
+
+
+    $('.next-button.name').click(
+    function () {
+    console.log("Something");
+    $('.name-section').addClass("fold-up");
+    $('.phone-section').removeClass("folded");
+    });
+    
+
+    $('.phone').on("change keyup paste",
+    function () {
+    if ($(this).val()) {
+    $('.icon-paper-plane').addClass("next");
+    } else {
+    $('.icon-paper-plane').removeClass("next");
+    }
+    });
+
+
+    $('.next-button').hover(
+    function () {
+    $(this).css('cursor', 'pointer');
+    });
+
+
+    $('.next-button.phone').click(
+    function () {
+    console.log("Something");
+    $('.phone-section').addClass("fold-up");
+    $('.title-section').removeClass("folded");
+    });
+
+
+    $('.title').on("change keyup paste",
+    function () {
+    if ($(this).val()) {
+    $('.icon-paper-plane').addClass("next");
+    } else {
+    $('.icon-paper-plane').removeClass("next");
+    }
+    });
+
+
+    $('.next-button').hover(
+    function () {
+    $(this).css('cursor', 'pointer');
+    });
+
+
+    $('.next-button.title').click(
+    function () {
+    console.log("Something");
+    $('.title-section').addClass("fold-up");
+    $('.topic-section').removeClass("folded");
+    });
+
+
+    $('.topic').on("change keyup paste",
+    function () {
+    if ($(this).val()) {
+    $('.icon-paper-plane').addClass("next");
+    } else {
+    $('.icon-paper-plane').removeClass("next");
+    }
+    });
+
+
+    $('.next-button').hover(
+    function () {
+    $(this).css('cursor', 'pointer');
+    });
+
+
+    $('.next-button.topic').click(
+    function () {
+    console.log("Something");
+    $('.topic-section').addClass("fold-up");
+    $('.question-section').removeClass("folded");
+    });
+
+
+    $('.question').on("change keyup paste",
+    function () {
+    if ($(this).val()) {
+    $('.icon-paper-plane').addClass("next");
+    } else {
+    $('.icon-paper-plane').removeClass("next");
+    }
+    });
+
+
+    $('.next-button').hover(
+    function () {
+    $(this).css('cursor', 'pointer');
+    });
+
+
+    $('.next-button.question').click(
+    function () {
+    console.log("Something");
+    $('.question-section').addClass("fold-up");
+    $('.password-section').removeClass("folded");
+    });
+    
+    
+    
+    
+    
+
+    $('.password').on("change keyup paste",
+    function () {
+    if ($(this).val()) {
+    $('.icon-lock').addClass("next");
+    } else {
+    $('.icon-lock').removeClass("next");
+    }
+    });
+
+
+    $('.next-button').hover(
+    function () {
+    $(this).css('cursor', 'pointer');
+    });
+
+
+    $('.next-button.password').click(
+    function () {
+    console.log("Something");
+    $('.password-section').addClass("fold-up");
+    $('.repeat-password-section').removeClass("folded");
+    });
+
+
+    $('.repeat-password').on("change keyup paste",
+    function () {
+    if ($(this).val()) {
+    $('.icon-repeat-lock').addClass("next");
+    } else {
+    $('.icon-repeat-lock').removeClass("next");
+    }
+    });
+
+
+    $('.next-button.repeat-password').click(
+    function () {
+    console.log("Something");
+    $('.repeat-password-section').addClass("fold-up");
+    $('.success').css("marginTop", 0);
+    });
+
+
+
+
+    $('.btns').hover(
+    function () {
+    $(this).css('cursor', 'pointer');
+    });
+
+    </script>
     <script src="main.js"></script>
+
 </body>
 </html>
