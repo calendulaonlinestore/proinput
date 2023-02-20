@@ -21,16 +21,16 @@
 </head>
 <body>
     <header class="nav">
-        <div class="logo">PROINPUT</div>
+        <div class="logo"><a href="#hero">PROINPUT</a></div>
         <div class="navlinks">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Register</a></li>
-                <li><a href="">Get in touch</a></li>
+                <!-- <li><a href="">Home</a></li> -->
+                <li><a href="#section2" class="sign" style="text-decoration: none">Sign up</a></li>
+                <!-- <li><a href="">Get in touch</a></li> -->
             </ul>
         </div>
     </header>
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="row">
             <h1>Get work done faster</h1><br>
             <h2>Many students in nigeria struggle with the hassle of doing assignments.</h2><br>
@@ -286,7 +286,12 @@
 
 
 
-    $('.btns').hover(
+    $('.sign').hover(
+    function () {
+    $(this).css('cursor', 'pointer');
+    });
+
+    $('.logo').hover(
     function () {
     $(this).css('cursor', 'pointer');
     });
